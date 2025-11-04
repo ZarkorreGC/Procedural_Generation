@@ -15,8 +15,8 @@ namespace Components.ProceduralGeneration.SimpleRoomPlacement
         [SerializeField] private int _maxRooms = 10;
 
         [Header("Room Size")]
-        [SerializeField] public Vector2 sizeMin;
-        [SerializeField] public Vector2 sizeMax;
+        [SerializeField] public Vector2Int sizeMin;
+        [SerializeField] public Vector2Int sizeMax;
 
         private List<RectInt> rooms = new List<RectInt>();
 
@@ -43,10 +43,10 @@ namespace Components.ProceduralGeneration.SimpleRoomPlacement
                 int x = RandomService.Range(0, Grid.Width);
                 int y = RandomService.Range(0, Grid.Lenght);
 
-                float xSize = RandomService.Range(sizeMin.x, sizeMax.x);
-                float ySize = RandomService.Range(sizeMin.y, sizeMax.y);
+                int xSize = RandomService.Range(sizeMin.x, sizeMax.x);
+                int ySize = RandomService.Range(sizeMin.y, sizeMax.y);
 
-                RectInt room = new RectInt(x, y, (int)xSize, (int)ySize);
+                RectInt room = new RectInt(x, y, xSize, ySize);
 
                 if (CanPlaceRoom(room))
                 {

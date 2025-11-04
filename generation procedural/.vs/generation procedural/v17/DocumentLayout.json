@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\nponthieu\\Documents\\GitHub\\Procedural_Generation\\generation procedural\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C09BFA74-2391-F3C8-A856-837D8EDC45D9}|Assembly-CSharp.csproj|c:\\users\\nponthieu\\documents\\github\\procedural_generation\\generation procedural\\assets\\components\\proceduralgeneration\\0_simpleroomplacement\\simpleroomplacement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C09BFA74-2391-F3C8-A856-837D8EDC45D9}|Assembly-CSharp.csproj|c:\\users\\nponthieu\\documents\\github\\procedural_generation\\generation procedural\\assets\\components\\proceduralgeneration\\bsp\\bsp_script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C09BFA74-2391-F3C8-A856-837D8EDC45D9}|Assembly-CSharp.csproj|solutionrelative:assets\\components\\proceduralgeneration\\bsp\\bsp_script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C09BFA74-2391-F3C8-A856-837D8EDC45D9}|Assembly-CSharp.csproj|C:\\Users\\nponthieu\\Documents\\GitHub\\Procedural_Generation\\generation procedural\\assets\\components\\proceduralgeneration\\0_simpleroomplacement\\simpleroomplacement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C09BFA74-2391-F3C8-A856-837D8EDC45D9}|Assembly-CSharp.csproj|solutionrelative:assets\\components\\proceduralgeneration\\0_simpleroomplacement\\simpleroomplacement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BSP_script.cs",
+              "DocumentMoniker": "C:\\Users\\nponthieu\\Documents\\GitHub\\Procedural_Generation\\generation procedural\\Assets\\Components\\ProceduralGeneration\\BSP\\BSP_script.cs",
+              "RelativeDocumentMoniker": "Assets\\Components\\ProceduralGeneration\\BSP\\BSP_script.cs",
+              "ToolTip": "C:\\Users\\nponthieu\\Documents\\GitHub\\Procedural_Generation\\generation procedural\\Assets\\Components\\ProceduralGeneration\\BSP\\BSP_script.cs",
+              "RelativeToolTip": "Assets\\Components\\ProceduralGeneration\\BSP\\BSP_script.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T12:22:46.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "SimpleRoomPlacement.cs",
               "DocumentMoniker": "C:\\Users\\nponthieu\\Documents\\GitHub\\Procedural_Generation\\generation procedural\\Assets\\Components\\ProceduralGeneration\\0_SimpleRoomPlacement\\SimpleRoomPlacement.cs",
               "RelativeDocumentMoniker": "Assets\\Components\\ProceduralGeneration\\0_SimpleRoomPlacement\\SimpleRoomPlacement.cs",
               "ToolTip": "C:\\Users\\nponthieu\\Documents\\GitHub\\Procedural_Generation\\generation procedural\\Assets\\Components\\ProceduralGeneration\\0_SimpleRoomPlacement\\SimpleRoomPlacement.cs",
               "RelativeToolTip": "Assets\\Components\\ProceduralGeneration\\0_SimpleRoomPlacement\\SimpleRoomPlacement.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAwwIIAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T15:31:02.117Z",
               "EditorCaption": ""
