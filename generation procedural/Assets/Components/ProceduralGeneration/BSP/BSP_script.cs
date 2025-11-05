@@ -25,6 +25,9 @@ public class BSPAlgo : ProceduralGenerationMethod
         AddChild(root._child2);
         Debug.Log("C2 child 1 bounds = " + root._child2._child1._bounds);
         Debug.Log("C2 child 2 bounds = " + root._child2._child2._bounds);
+
+        await UniTask.Delay(GridGenerator.StepDelay, cancellationToken: cancellationToken);
+
     }
 
 
@@ -33,7 +36,7 @@ public class BSPAlgo : ProceduralGenerationMethod
 
     void AddChild(BSPNode node)
     {
-        Vector2Int first = new Vector2Int(RandomService.Range(node._bounds.width / 2, RandomService.Range(-5,5)), RandomService.Range(node._bounds.height / 2, RandomService.Range(-5, 5)));
+        Vector2Int first = new Vector2Int(    RandomService.Range( (node._bounds.width / 2 -2) ,(node._bounds.width / 2 +2) ) , RandomService.Range( (node._bounds.height / 2 -2), (node._bounds.height / 2 + 2) )   );
         Vector2Int second = new Vector2Int(node._bounds.width - first.x, node._bounds.height - first.y);
 
         int RandomCut1 = RandomService.Range(0, 1);
@@ -82,18 +85,35 @@ public class BSPNode
     public RectInt _bounds;
     public BSPNode _child1, _child2;
 
+    private Vector2Int _roomSize = new Vector2Int(5, 5);
+
     public BSPNode(RectInt bounds, RandomService randomService)
     {
         _bounds = bounds;
         _randomService = randomService;
-        
-        if(false)
+
+
+        RectInt splitBoundsLeft  = new RectInt(_bounds.xMin, _bounds.yMin, _bounds.width / 2, _bounds.height);
+        RectInt splitBoundsRight = new RectInt(_bounds.xMin + _bounds.width / 2, _bounds.yMin, _bounds.width / 2, _bounds.height);
+
+        RectInt splitBoundsDown  = new RectInt(_bounds.xMin, _bounds.yMin, _bounds.width , _bounds.height/ 2);
+        RectInt splitBoundsUP    = new RectInt(_bounds.xMin , _bounds.yMin+ _bounds.width / 2, _bounds.width , _bounds.height/ 2);
+
+        if(splitBoundsLeft.width < _roomSize.x || splitBoundsLeft.height <_roomSize.y )
         {
-            _child1 = new BSPNode(_bounds, _randomService);
-            _child2 = new BSPNode(_bounds, _randomService);
+
+
+
+            return;
         }
 
-        
 
+
+
+        //if (false)
+        //{
+        //    _child1 = new BSPNode(splitBoundsLeft, _randomService);
+        //    _child2 = new BSPNode(splitBoundsRight, _randomService);
+        //}
     }
 }
