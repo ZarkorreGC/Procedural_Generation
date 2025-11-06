@@ -40,6 +40,7 @@ public class Celular_Automata_script : ProceduralGenerationMethod
             // .......
 
             UpdateMap();
+            BuildNoise();
 
 
             // Waiting between steps to see the result.
@@ -57,6 +58,8 @@ public class Celular_Automata_script : ProceduralGenerationMethod
     {
         for (int x = 0; x < Grid.Width; x++)
         {
+            noise.Add(new List<int>());
+
             for (int z = 0; z < Grid.Lenght; z++)
             {
                 if (noiseIntensity == 100)
@@ -71,11 +74,11 @@ public class Celular_Automata_script : ProceduralGenerationMethod
 
                     if (stepvalue < noiseIntensity)
                     {
-                        noise.Add(1);
+                        noise[x].Add(1);
                     }
                     else
                     {
-                        noise.Add(0);
+                        noise[x].Add(0);
                     }
                 }
             }
@@ -85,14 +88,12 @@ public class Celular_Automata_script : ProceduralGenerationMethod
 
     private void BuildNoise()
     {
-        int i = 0;
-
         // Instantiate ground blocks
         for (int x = 0; x < Grid.Width; x++)
         {
             for (int z = 0; z < Grid.Lenght; z++)
             {
-                switch(noise[i]){
+                switch (noise[x][z]){
 
                     case 1:
                         if (!Grid.TryGetCellByCoordinates(x, z, out Cell cell))
@@ -109,7 +110,6 @@ public class Celular_Automata_script : ProceduralGenerationMethod
                         break;
 
                 }
-                i++;
             }
         }
     }
