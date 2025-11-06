@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _maxSteps: 1000
   _noiseType: 0
-  _frequency: 0.0235
-  _amplitude: 1
-  _fractalType: 0
+  _frequency: 0.031
+  _amplitude: 1.5
+  _fractalType: 1
   _octaves: 3
-  _lacunarity: 2
+  _lacunarity: 2.03
   _persistence: 0.5
-  WaterHeight: 0.102
-  SandHeight: 0.306
-  GrassHeight: 0.703
-  RockHeight: 0.925
+  WaterHeight: -0.47
+  SandHeight: -0.16
+  GrassHeight: 0.4
+  RockHeight: 1
   _drawDebugTexture: 0
   _DebugTextureAlpha: 0.6

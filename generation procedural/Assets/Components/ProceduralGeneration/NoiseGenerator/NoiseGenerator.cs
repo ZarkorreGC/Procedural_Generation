@@ -16,7 +16,7 @@ namespace Components.ProceduralGeneration._2_CellularAutomata
 
         [Header("Noise Parameters")]
         [SerializeField] private FastNoiseLite.NoiseType _noiseType;
-        [SerializeField, Tooltip(""), Range(0.01f, 0.1f)] private float _frequency = 0.01f;
+        [SerializeField, Tooltip(""), Range(0.01f, 1f)] private float _frequency = 0.01f;
         [SerializeField, Tooltip(""), Range(0.5f, 1.5f)] private float _amplitude = 1.0f;
 
         [Header("Fractal Parameters")]
@@ -27,10 +27,10 @@ namespace Components.ProceduralGeneration._2_CellularAutomata
 
 
         [Header("Heights")]
-        [SerializeField, Tooltip("The percentage of water tile on the map."), Range(0, 1)] private float WaterHeight = -0.6f;
-        [SerializeField, Tooltip("The percentage of sand tile on the map."), Range(0, 1)] private float SandHeight = -0.3f;
-        [SerializeField, Tooltip("The percentage of grass tile on the map."), Range(0, 1)] private float GrassHeight = 0.8f;
-        [SerializeField, Tooltip("The percentage of rock tile on the map."), Range(0, 1)] private float RockHeight = 1f;
+        [SerializeField, Tooltip("The percentage of water tile on the map."), Range(-1, 1)] private float WaterHeight = -0.6f;
+        [SerializeField, Tooltip("The percentage of sand tile on the map."), Range(-1, 1)] private float SandHeight = -0.3f;
+        [SerializeField, Tooltip("The percentage of grass tile on the map."), Range(-1, 1)] private float GrassHeight = 0.8f;
+        [SerializeField, Tooltip("The percentage of rock tile on the map."), Range(-1, 1)] private float RockHeight = 1f;
 
         [Header("Debug")]
         [SerializeField] private bool _drawDebugTexture;
