@@ -84,7 +84,7 @@ namespace Components.ProceduralGeneration._2_CellularAutomata
                     {
                         AddTileToCell(cell, "Grass", true);
                     }
-                    else if (noise.GetNoise(i, j) >= RockHeight)
+                    else if (noise.GetNoise(i, j) >= GrassHeight && noise.GetNoise(i, j) <= RockHeight)
                     {
                         AddTileToCell(cell, "Rock", true);
                     }
