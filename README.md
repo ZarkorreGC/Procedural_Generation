@@ -25,6 +25,9 @@ Crée des pièces et des couloirs interconnectés en divisant récursivement l'e
 * La génération des couloirs entre les pièces s'effectue en liant les leafs et le sisters enssemble
 * Dimensions des pièces configurables
 
+<center>
+    <img src="generation procedural\Assets\Screenshot/BSP.png">
+</center>
 
 ### fonctionnement de l'algorithme
 
