@@ -26,7 +26,7 @@ Crée des pièces et des couloirs interconnectés en divisant récursivement l'e
 * Dimensions des pièces configurables
 
 <center>
-    <img src="generation procedural\Assets\Screenshot/BSP.png">
+    <img src="generation procedural/Assets/Screenshot/BSP.png">
 </center>
 
 ### fonctionnement de l'algorithme
