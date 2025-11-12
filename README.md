@@ -45,17 +45,6 @@ Cela nous permet un chargement dynamique pour la géneration d'un donjon par exe
 Simule la formation organique de grottes ou d'une île à l'aide de règles d'automates cellulaires sur plusieurs itérations.
 
 
-
-Processus de simulation itératif
-Formations de grottes d'aspect naturel
-Génération de montagnes dans les zones de sol dense
-Génération visuelle étape par étape avec délais
-Densité et seuils configurables
-
-
-
-
-
 ### fonctionnement de l'algorithme
 
 *Initialise de la grille avec un noise aléatoire
@@ -72,7 +61,9 @@ Densité et seuils configurables
 Le Cellular Automata nous est utile pour modéliser la propagation, la diffusion ou l'évolution d’écosystèmes, comme par exemples un réseaux de grottes.
 
 
-
+<center>
+    <img src="generation procedural/Assets/Screenshot/Cellular Automata.png">
+</center>
 
 
 ## 3. Génération d'un fractale noise (`NoiseGenerator.cs`)
@@ -85,6 +76,9 @@ Le bruit fractal crée des motifs, des textures, des biomes sans répétition vi
 Et en combinant plusieurs bruits, on peut même générer un monde complet.
 
 
+<center>
+    <img src="generation procedural/Assets/Screenshot/Fractale noise.png">
+</center>
 
 
 
@@ -134,4 +128,6 @@ public class MyAlgo : ProceduralGenerationMethod
 }
 
 ```
-
+<center>
+    <img src="generation procedural/Assets/Screenshot/ClickDroit.png">
+</center>
