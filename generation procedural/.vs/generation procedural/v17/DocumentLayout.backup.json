@@ -1,22 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nponthieu\\Documents\\GitHub\\Procedural_Generation\\generation procedural\\",
+  "WorkspaceRootPath": "C:\\Users\\nicpo\\Documents\\GitHub\\Procedural_Generation\\generation procedural\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C09BFA74-2391-F3C8-A856-837D8EDC45D9}|Assembly-CSharp.csproj|c:\\users\\nponthieu\\documents\\github\\procedural_generation\\generation procedural\\assets\\components\\proceduralgeneration\\noisegenerator\\noisegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09BFA74-2391-F3C8-A856-837D8EDC45D9}|Assembly-CSharp.csproj|solutionrelative:assets\\components\\proceduralgeneration\\noisegenerator\\noisegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nponthieu\\Documents\\GitHub\\Procedural_Generation\\generation procedural\\Assets\\Components\\ProceduralGeneration\\Fast_Noise\\NoiseGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Components\\ProceduralGeneration\\Fast_Noise\\NoiseGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C09BFA74-2391-F3C8-A856-837D8EDC45D9}|Assembly-CSharp.csproj|C:\\Users\\nponthieu\\Documents\\GitHub\\Procedural_Generation\\generation procedural\\assets\\components\\proceduralgeneration\\base\\proceduralgridgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09BFA74-2391-F3C8-A856-837D8EDC45D9}|Assembly-CSharp.csproj|solutionrelative:assets\\components\\proceduralgeneration\\base\\proceduralgridgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C09BFA74-2391-F3C8-A856-837D8EDC45D9}|Assembly-CSharp.csproj|C:\\Users\\nponthieu\\Documents\\GitHub\\Procedural_Generation\\generation procedural\\assets\\components\\proceduralgeneration\\base\\fastnoiselite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09BFA74-2391-F3C8-A856-837D8EDC45D9}|Assembly-CSharp.csproj|solutionrelative:assets\\components\\proceduralgeneration\\base\\fastnoiselite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C09BFA74-2391-F3C8-A856-837D8EDC45D9}|Assembly-CSharp.csproj|c:\\users\\nicpo\\documents\\github\\procedural_generation\\generation procedural\\assets\\components\\proceduralgeneration\\celular_automata\\cellularautomata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C09BFA74-2391-F3C8-A856-837D8EDC45D9}|Assembly-CSharp.csproj|solutionrelative:assets\\components\\proceduralgeneration\\celular_automata\\cellularautomata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,55 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d3750d8a-574b-4fb3-b7e2-aa8af40e8231}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NoiseGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\nponthieu\\Documents\\GitHub\\Procedural_Generation\\generation procedural\\Assets\\Components\\ProceduralGeneration\\NoiseGenerator\\NoiseGenerator.cs",
-              "RelativeDocumentMoniker": "Assets\\Components\\ProceduralGeneration\\NoiseGenerator\\NoiseGenerator.cs",
-              "ToolTip": "C:\\Users\\nponthieu\\Documents\\GitHub\\Procedural_Generation\\generation procedural\\Assets\\Components\\ProceduralGeneration\\NoiseGenerator\\NoiseGenerator.cs",
-              "RelativeToolTip": "Assets\\Components\\ProceduralGeneration\\NoiseGenerator\\NoiseGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABVAAAAAAAAAA==",
+              "Title": "CellularAutomata.cs",
+              "DocumentMoniker": "C:\\Users\\nicpo\\Documents\\GitHub\\Procedural_Generation\\generation procedural\\Assets\\Components\\ProceduralGeneration\\Celular_Automata\\CellularAutomata.cs",
+              "RelativeDocumentMoniker": "Assets\\Components\\ProceduralGeneration\\Celular_Automata\\CellularAutomata.cs",
+              "ToolTip": "C:\\Users\\nicpo\\Documents\\GitHub\\Procedural_Generation\\generation procedural\\Assets\\Components\\ProceduralGeneration\\Celular_Automata\\CellularAutomata.cs",
+              "RelativeToolTip": "Assets\\Components\\ProceduralGeneration\\Celular_Automata\\CellularAutomata.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T17:07:48.076Z",
+              "WhenOpened": "2025-11-12T22:04:53.687Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NoiseGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\nponthieu\\Documents\\GitHub\\Procedural_Generation\\generation procedural\\Assets\\Components\\ProceduralGeneration\\Fast_Noise\\NoiseGenerator.cs",
-              "RelativeDocumentMoniker": "Assets\\Components\\ProceduralGeneration\\Fast_Noise\\NoiseGenerator.cs",
-              "ToolTip": "C:\\Users\\nponthieu\\Documents\\GitHub\\Procedural_Generation\\generation procedural\\Assets\\Components\\ProceduralGeneration\\Fast_Noise\\NoiseGenerator.cs",
-              "RelativeToolTip": "Assets\\Components\\ProceduralGeneration\\Fast_Noise\\NoiseGenerator.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T16:10:46.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProceduralGridGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\nponthieu\\Documents\\GitHub\\Procedural_Generation\\generation procedural\\Assets\\Components\\ProceduralGeneration\\Base\\ProceduralGridGenerator.cs",
-              "RelativeDocumentMoniker": "Assets\\Components\\ProceduralGeneration\\Base\\ProceduralGridGenerator.cs",
-              "ToolTip": "C:\\Users\\nponthieu\\Documents\\GitHub\\Procedural_Generation\\generation procedural\\Assets\\Components\\ProceduralGeneration\\Base\\ProceduralGridGenerator.cs",
-              "RelativeToolTip": "Assets\\Components\\ProceduralGeneration\\Base\\ProceduralGridGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T14:54:22.409Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FastNoiseLite.cs",
-              "DocumentMoniker": "C:\\Users\\nponthieu\\Documents\\GitHub\\Procedural_Generation\\generation procedural\\Assets\\Components\\ProceduralGeneration\\Base\\FastNoiseLite.cs",
-              "RelativeDocumentMoniker": "Assets\\Components\\ProceduralGeneration\\Base\\FastNoiseLite.cs",
-              "ToolTip": "C:\\Users\\nponthieu\\Documents\\GitHub\\Procedural_Generation\\generation procedural\\Assets\\Components\\ProceduralGeneration\\Base\\FastNoiseLite.cs",
-              "RelativeToolTip": "Assets\\Components\\ProceduralGeneration\\Base\\FastNoiseLite.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T09:22:06.43Z"
             }
           ]
         }
