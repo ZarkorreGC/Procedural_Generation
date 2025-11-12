@@ -1,4 +1,4 @@
-** Generation Procedurale **
+**Generation Procedurale**
 --------------------------------------------------
 
 Ce projet possède trois algorithme de génération procédurale pour Unity 6 en C#. Chaque algorithmes génère différents types de terrains et d'environnements adaptés au développement de jeux.
