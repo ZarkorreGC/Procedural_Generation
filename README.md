@@ -82,7 +82,7 @@ Et en combinant plusieurs bruits, on peut même générer un monde complet.
 
 
 
-## Comment créer mon algorithme
+## Comment créer/ajouter mon algorithme
 
 ```csharp
 
